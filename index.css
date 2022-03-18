@@ -1,0 +1,165 @@
+.wrapper {
+    max-width: 900px;
+}
+
+.cv-background {
+    /* background-image: url('./Iridescence.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    color: #fff;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    font-size: 1rem;
+    line-height: 0.7rem;
+    text-shadow: 
+    1px 1px rgb(0 0 0 / 10%), 
+    2px 2px rgb(0 0 0 / 5%);
+    background-color: black;
+}
+
+.cv-background video {
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    min-width: 100%;
+    min-height: 100vh; 
+    z-index: -1;
+}
+
+.cv-grid-view {
+    display: grid;
+    grid: auto-flow / 1fr 2fr;
+}
+
+.title-period-flex {
+    display: flex;
+    line-height: 1.2rem;
+    text-align: left;
+}
+
+.glass-card {
+    border: 0rem solid;
+    border-color: transparent;
+    margin: 1rem 0.5rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(143.46deg, rgba(255, 255, 255, 0.3) -1.73%, rgba(255, 255, 255, 0.25) 105.22%, rgba(255, 255, 255, 0.3) 105.22%);
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2rem);
+    padding: 1rem 1.6rem;
+    z-index: 2;
+    text-align: justify;
+}
+
+.main-color {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.side-bar-links {
+    color: #fff;
+}
+
+.i {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.2rem;
+    display: inline-block;
+}
+
+.i-location {
+    background-image: url('./static/pin.svg');
+}
+
+.i-telegram {
+    background-image: url('./static/tg.svg');
+}
+
+.i-email {
+    background-image: url('./static/email.svg');
+}
+
+.i-medium {
+    background-image: url('./static/medium.svg');
+}
+
+.i-github {
+    background-image: url('./static/github.svg');
+}
+
+.i-linkedin {
+    background-image: url('./static/linkedin.svg');
+}
+
+.about-block {
+    list-style: none;
+    margin: 0rem;
+}
+
+.about-block li {
+    display: flex;
+}
+
+ul {
+    padding: 0rem;
+    margin-bottom: 0.2rem;
+    list-style-type: disc;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+.education {
+    line-height: 1.5rem;
+    margin-top: 0rem;
+}
+
+.job-title {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.location-work-period {
+    font-style: italic;
+    text-align: end;
+    margin-left: 0.5rem;
+}
+
+.text-opacity {
+    opacity: 0.6;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    margin: 0.8rem 0rem 0.8rem;
+}
+
+h3 {
+    margin: 0.8rem;
+}
+
+p {
+    margin: 0.4rem 0;
+}
