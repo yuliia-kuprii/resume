@@ -3,10 +3,10 @@
 }
 
 .cv-background {
-    /* background-image: url('./Iridescence.jpg');
+    background-image: url('./Iridescence.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover; */
+    background-size: cover;
     color: #fff;
     text-align: left;
     font-family: 'Roboto', sans-serif;
