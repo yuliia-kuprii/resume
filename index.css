@@ -10,9 +10,9 @@
     color: #fff;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     padding: 0rem;
     font-size: 1rem;
     line-height: 0.7rem;
@@ -168,4 +168,14 @@ h3 {
 
 p {
     margin: 0.4rem 0;
+}
+
+@media(max-width: 625px){
+    .cv-grid-view {
+        grid: auto-flow / 1fr;
+    }
+    .wrapper {
+        max-width: 300px;
+    }
+
 }
