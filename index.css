@@ -77,6 +77,20 @@ img {
     display: block;
 }
 
+/* .img-cv-link {
+    vertical-align: middle;
+    object-fit: cover;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+} */
+
 .side-bar-links {
     color: #fff;
 }
@@ -145,13 +159,12 @@ ul {
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-size: 1rem;
-    margin-right: 0.5rem;
 }
 
 .location-work-period {
     font-style: italic;
     text-align: end;
-    margin-left: 0.5rem;
+    margin-left: auto;
 }
 
 .text-opacity {
