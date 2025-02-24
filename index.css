@@ -4,12 +4,6 @@
 }
 
 .cv-background {
-    /* background-image: url('./static/Iridescence.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
-    /* color: #fff; */
-    /* color: #2b2d2e; */
     color: #0c0c0d;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -20,23 +14,8 @@
     padding: 0rem;
     font-size: 1rem;
     line-height: 0.7rem;
-    /* text-shadow: 
-    1px 1px rgb(0 0 0 / 10%), 
-    2px 2px rgb(0 0 0 / 5%); */
-    /* background-color: #72c9b8; */
-    /* background-color: #c5c9cc; */
-    /* background-color: #85898e; */
     background-color: #5c6066;
 }
-
-/* .video-wrap video {
-    position: fixed;
-    top: 0rem;
-    left: 0rem;
-    min-width: 100%;
-    min-height: 100vh; 
-    z-index: -1;
-} */
 
 .cv-grid-view {
     display: grid;
@@ -55,23 +34,20 @@
     border: 0rem solid;
     border-color: transparent;
     border-radius: 1.5rem;
-    /* background: linear-gradient(143.46deg, rgba(255, 255, 255, 0.3) -1.73%, rgba(255, 255, 255, 0.25) 105.22%, rgba(255, 255, 255, 0.3) 105.22%); */
     background: #f5f5f5;
     box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.25);
-    /* box-shadow: 0rem 1rem 1rem #e6be61; */
     backdrop-filter: blur(2rem);
     margin-bottom: 1rem;
     padding: 1rem 1.6rem;
     z-index: 2;
     text-align: justify;
 }
+
 .glass-card-me {
-    /* background: #db7258; */
     background: #f5f5f5;
 }
 
 .glass-card-sidebar {
-    /* background: #c5c9cc; */
     background: #f5f5f5;
 }
 
@@ -85,10 +61,12 @@
     color: #f24d24;
 }
 
-
+.lyft {
+    color: rgb(255, 0, 191);
+    font-weight: bold;
+}
 
 .main-color {
-    /* color: rgb(255, 255, 255); */
     color: #0c0c0d;
     font-weight: bold;
 }
@@ -106,20 +84,6 @@ img {
     margin-left: auto;
     display: block;
 }
-
-/* .img-cv-link {
-    vertical-align: middle;
-    object-fit: cover;
-    align-items: center;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-} */
 
 .side-bar-links {
     color: #0c0c0d;
@@ -140,8 +104,6 @@ img {
 
 .i-work {
     background-image: url('./static/work.svg');
-    /* filter: invert(100%); */
-    
 }
 
 .i-telegram {
@@ -163,6 +125,7 @@ img {
 .i-linkedin {
     background-image: url('./static/linkedin.svg');
 }
+
 .about-block-1 {
     list-style: none;
     margin: 0rem;
@@ -171,6 +134,7 @@ img {
     display: flex;
     align-items: center;
 }
+
 .about-block-2 {
     list-style: none;
     margin: 0rem;
@@ -189,7 +153,6 @@ hr {
     border: 0.06rem solid #4ca694;
     border-radius: 1.5rem;
     margin-top: 1rem;
-    /* opacity: 70%; */
 }
 
 ul {
@@ -197,17 +160,17 @@ ul {
     margin-bottom: 0.2rem;
     list-style-type: disc;
     margin-left: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
 }
 
 .education {
     line-height: 1.5rem;
     margin-top: 0rem;
 }
+
 .work-experience-header {
     color: #4ca694;
     margin-bottom: 1.5rem;
-    
 }
 
 .job-title {
@@ -223,10 +186,6 @@ ul {
     color: #226e5f;
 }
 
-.text-opacity {
-    opacity: 0.9;
-}
-
 h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -240,8 +199,8 @@ h3 {
 
 h4.job-title {
     margin-bottom: 0rem;
-
 }
+
 p {
     margin: 0.4rem 0;
 }
@@ -258,6 +217,7 @@ p {
         margin-bottom: 1.5rem;
     }
 }
+
 @media(max-width: 390px){
     img {
         width: 15rem;
