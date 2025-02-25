@@ -25,7 +25,7 @@
 
 .title-period-flex {
     display: flex;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
     text-align: left;
     margin-top: 0.7rem;
 }
@@ -40,7 +40,7 @@
     margin-bottom: 1rem;
     padding: 1rem 1.6rem;
     z-index: 2;
-    text-align: justify;
+    text-align: left;
 }
 
 .glass-card-me {
@@ -55,6 +55,8 @@
     color: #f7ad00;
     text-transform: uppercase;
     font-size: 1rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.5rem;
 }
 
 .side-bar-name {
@@ -126,21 +128,12 @@ img {
     background-image: url('./static/linkedin.svg');
 }
 
-.about-block-1 {
+.about-block {
     list-style: none;
-    margin: 0rem;
-    padding: 0rem;
-    line-height: 3;
-    display: flex;
-    align-items: center;
+    margin: 0.5rem;
 }
 
-.about-block-2 {
-    list-style: none;
-    margin: 0rem;
-}
-
-.about-block-2 li {
+.about-block li {
     display: flex;
     align-items: center;
 }
@@ -160,6 +153,7 @@ ul {
     margin-bottom: 0.2rem;
     list-style-type: disc;
     margin-left: 1rem;
+    margin-top: 0.8rem;
     line-height: 1.4rem;
 }
 
@@ -177,6 +171,7 @@ ul {
     font-weight: bold;
     color: #0c0c0d;
     font-size: 1rem;
+    line-height: 1.3rem;
 }
 
 .location-work-period {
